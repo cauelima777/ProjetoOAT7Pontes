@@ -143,7 +143,7 @@ class SolucaoPontes {
         for (List<Bairro> caminhoFixo : caminhosFixos) {
             if (validarCaminho(caminhoFixo, bairrosCidade)) {
                 System.out.println("Caminho do passeio completo:");
-                for (int i = 0; i < caminhoFixo.size() - 1; i++) { // Alterado para caminhoFixo.size() - 1
+                for (int i = 0; i < caminhoFixo.size() - 1; i++) {
                     System.out.print(caminhoFixo.get(i).getNome());
                     if (i < caminhoFixo.size() - 2) {
                         System.out.print(" -> ");
